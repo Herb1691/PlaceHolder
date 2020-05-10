@@ -6,6 +6,9 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatTableModule } from '@angular/material/table';
 import { MatInputModule } from '@angular/material/input';
+import { MatSortModule } from '@angular/material/sort';
+import { MatPaginatorModule } from '@angular/material/paginator';
+import { MatButtonToggleModule } from '@angular/material/button-toggle';
 import { from } from 'rxjs';
 
 @NgModule({
@@ -18,7 +21,10 @@ import { from } from 'rxjs';
     BrowserAnimationsModule,
     HttpClientModule,
     MatTableModule,
-    MatInputModule
+    MatInputModule,
+    MatSortModule,
+    MatPaginatorModule,
+    MatButtonToggleModule
   ],
   providers: [],
   bootstrap: [AppComponent]
